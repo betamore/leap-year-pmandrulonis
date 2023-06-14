@@ -1,6 +1,12 @@
 isLeapYear(){
-
-	// Write code here
+    if(input % 4 == 0 && input % 100 != 0 || input % 400 == 0){
+        console.log(input + " is a leap year.")
+        return true
+    } 
+    else{
+        console.log(input + " is not a leap year.")
+        return false
+    }
 	
 }
 
