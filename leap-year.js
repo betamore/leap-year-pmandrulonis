@@ -7,7 +7,6 @@ isLeapYear(){
         console.log(input + " is not a leap year.")
         return false
     }
-	
 }
 
 
